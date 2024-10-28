@@ -13,20 +13,9 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=Psakejs&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
-## ⏰ Actividad Reciente  
-- **Psakejs/Curso-Profesional-de-Git-y-Github**: 1 commit(s)
-- **Psakejs/Curso-Profesional-de-Git-y-Github**: 1 commit(s)
-- **Psakejs/Psakejs**: 1 commit(s)
-- **Psakejs/Psakejs**: 1 commit(s)
-- **Psakejs/Psakejs**: 1 commit(s)
-
 ### 🕒 Tiempo de Código Semanal
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-
-
-
 
 ## ⏰ Actividad Reciente
 - **Psakejs/Curso-Profesional-de-Git-y-Github**: 1 commit(s)
