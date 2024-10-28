@@ -15,6 +15,77 @@
 
 ### 🕒 Tiempo de Código Semanal
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-63-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 77 Contributions in the Year 2024
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 5 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                10 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.13 % 
+🌆 Daytime                14 commits          ██████░░░░░░░░░░░░░░░░░░░   22.58 % 
+🌃 Evening                35 commits          ██████████████░░░░░░░░░░░   56.45 % 
+🌙 Night                  3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.84 % 
+```
+📅 **I'm Most Productive on Sunday** 
+
+```text
+Monday                   10 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.13 % 
+Tuesday                  0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Wednesday                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Thursday                 8 commits           ███░░░░░░░░░░░░░░░░░░░░░░   12.90 % 
+Friday                   2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+Saturday                 20 commits          ████████░░░░░░░░░░░░░░░░░   32.26 % 
+Sunday                   22 commits          █████████░░░░░░░░░░░░░░░░   35.48 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Bogota
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in HTML** 
+
+```text
+HTML                     2 repos             ████████████░░░░░░░░░░░░░   50.00 % 
+JavaScript               1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+PHP                      1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/Psakejs/Psakejs/main/assets/bar_graph.png)
+
+
+ Last Updated on 28/10/2024 15:36:35 UTC
 <!--END_SECTION:waka-->
 
 ## ⏰ Actividad Reciente
