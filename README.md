@@ -21,4 +21,9 @@
 - **Psakejs/Psakejs**: 1 commit(s)
 - **Psakejs/Psakejs**: 1 commit(s)
 
+### 🕒 Tiempo de Código Semanal
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+
 
