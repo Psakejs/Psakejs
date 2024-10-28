@@ -17,11 +17,11 @@ const recentCommits = activityData
 let readmeContent = fs.readFileSync('README.md', 'utf-8');
 
 // Crea el texto de actividad reciente
-const activitySection = `\n## Actividad Reciente\n${recentCommits.join('\n')}\n`;
+const activitySection = `\n## ⏰ Actividad Reciente\n${recentCommits.join('\n')}\n`;
 
 // Si la sección ya existe, la reemplaza; de lo contrario, la agrega
 const updatedReadme = readmeContent.includes("## Actividad Reciente")
-  ? readmeContent.replace(/## Actividad Reciente\n[^#]*/, activitySection)
+  ? readmeContent.replace(/## ⏰ Actividad Reciente\n[^#]*/, activitySection)
   : readmeContent + activitySection;
 
 // Guarda los cambios en el README.md
