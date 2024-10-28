@@ -1,0 +1,39 @@
+name: Update README with Recent Activity
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Ejecuta cada hora (ajústalo según prefieras)
+  workflow_dispatch:      # Permite ejecutar el flujo manualmente
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Fetch GitHub Events
+        id: fetch-activity
+        run: |
+          curl -s https://api.github.com/users/Psakejs/events > recent_activity.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README
+        run: |
+          node update_readme.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update recent activity"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
