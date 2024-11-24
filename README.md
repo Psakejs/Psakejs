@@ -13,11 +13,13 @@
 
 ### 🕒 Tiempo de Código Semanal
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-20-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 283 Bytes Used in GitHub's Storage 
+> 📦 288 Bytes Used in GitHub's Storage 
  > 
 > 🏆 132 Contributions in the Year 2024
  > 
@@ -81,7 +83,7 @@ PHP                      1 repo              ████████░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Psakejs/Psakejs/main/assets/bar_graph.png)
 
 
- Last Updated on 22/11/2024 04:33:00 UTC
+ Last Updated on 24/11/2024 03:08:52 UTC
 <!--END_SECTION:waka-->
 
 
