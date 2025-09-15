@@ -1,28 +1,62 @@
 const fs = require('fs');
+const path = require('path');
 
-// Lee el archivo JSON con las actividades recientes
-const activityData = JSON.parse(fs.readFileSync('recent_activity.json', 'utf-8'));
+// The main function that runs the script
+async function updateReadme() {
+    const readmePath = path.join(__dirname, 'README.md');
+    const activityPath = path.join(__dirname, 'recent_activity.json');
 
-// Filtra eventos de "PushEvent" (commits) y extrae la información relevante
-const recentCommits = activityData
-  .filter(event => event.type === 'PushEvent')
-  .map(event => {
-    const repoName = event.repo.name;
-    const commitCount = event.payload.commits.length;
-    return `- **${repoName}**: ${commitCount} commit(s)`;
-  })
-  .slice(0, 6); // Limita la cantidad de actividades que deseas mostrar (en este caso, 5)
+    try {
+        // Read the README and the fetched activity data
+        const readmeContent = fs.readFileSync(readmePath, 'utf8');
+        const activityData = JSON.parse(fs.readFileSync(activityPath, 'utf8'));
 
-// Actualiza el README.md con la actividad reciente
-let readmeContent = fs.readFileSync('README.md', 'utf-8');
+        // Filter for meaningful events and limit to the 5 most recent
+        const recentEvents = activityData
+            .filter(event => event.type === 'PushEvent' || event.type === 'CreateEvent' || event.type === 'PullRequestEvent')
+            .slice(0, 5);
 
-// Crea el texto de actividad reciente con una estructura clara
-const activitySection = `\n## ⏰ Actividad Reciente\n${recentCommits.join('\n')}\n`;
+        // If there are no recent events, stop the script.
+        if (recentEvents.length === 0) {
+            console.log("No new activity to update. Exiting.");
+            return;
+        }
 
-// Si la sección ya existe, la reemplaza; de lo contrario, la agrega al final del archivo
-const updatedReadme = readmeContent.includes("## ⏰ Actividad Reciente")
-  ? readmeContent.replace(/## ⏰ Actividad Reciente\n([\s\S]*?)(\n##|$)/, activitySection + "$2")
-  : readmeContent + activitySection;
+        // Generate the new content as a Markdown list
+        const activityList = recentEvents.map(event => {
+            const repoName = event.repo.name;
+            const repoUrl = `https://github.com/${repoName}`;
+            let actionText = '';
 
-// Guarda los cambios en el README.md
-fs.writeFileSync('README.md', updatedReadme);
+            if (event.type === 'PushEvent') {
+                const commitCount = event.payload.commits.length;
+                actionText = `Pushed ${commitCount} commit(s) to`;
+            } else if (event.type === 'CreateEvent' && event.payload.ref_type === 'repository') {
+                actionText = `Created new repository`;
+            } else if (event.type === 'PullRequestEvent' && event.payload.action === 'opened') {
+                actionText = `Opened a pull request in`;
+            } else {
+                return null; // Ignore other event types or actions
+            }
+            
+            return `- ${actionText} [**${repoName}**](${repoUrl})`;
+        }).filter(Boolean).join('\n'); // Filter out nulls and join with newlines
+
+        // Use regex to find the placeholder section in the README
+        const startMarker = '';
+        const endMarker = '';
+        const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`);
+
+        // Replace the old list with the new one
+        const newReadmeContent = readmeContent.replace(regex, `${startMarker}\n${activityList}\n${endMarker}`);
+
+        // Write the new content back to the README file
+        fs.writeFileSync(readmePath, newReadmeContent);
+        console.log("README updated successfully with recent activity.");
+
+    } catch (error) {
+        console.error("Error updating README:", error);
+    }
+}
+
+updateReadme();

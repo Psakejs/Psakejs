@@ -2,38 +2,32 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ejecuta cada hora (ajústalo según prefieras)
-  workflow_dispatch:      # Permite ejecutar el flujo manualmente
+    - cron: '0 */4 * * *' # Runs every 4 hours
+  workflow_dispatch:      # Allows manual runs
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3  # Actualizado a v3
+        uses: actions/checkout@v4 # Use latest version
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3  # Actualizado a v3
+        uses: actions/setup-node@v4 # Use latest version
         with:
-          node-version: '20'  # Cambiado a Node.js 20 para mayor compatibilidad futura
+          node-version: '20'
 
       - name: Fetch GitHub Events
-        id: fetch-activity
-        run: |
-          curl -s https://api.github.com/users/Psakejs/events > recent_activity.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Update README
-        run: |
-          node update_readme.js
-
-      - name: Commit changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update recent activity" || echo "Nothing to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/users/Psakejs/events > recent_activity.json
+      
+      - name: Update README file
+        run: node update_readme.js
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Update recent GitHub activity"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
