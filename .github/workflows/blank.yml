@@ -10,17 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Use latest version
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4 # Use latest version
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Fetch GitHub Events
-        run:
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          https://api.github.com/users/Psakejs/events > recent_activity.json
+        run: |
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/users/Psakejs/events > recent_activity.json
       
       - name: Update README file
         run: node update_readme.js
