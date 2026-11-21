@@ -1,3 +1,1013 @@
 [
-
+  {
+    "id": "27839808522",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 51285523927,
+      "ref": "refs/heads/main",
+      "head": "28bb9b741854ec6d06a79a7e80e67d28b8fac87d",
+      "before": "d13cc4d4a0387437fb04a91dc0231bafdb7bf65d"
+    },
+    "public": true,
+    "created_at": "2026-11-21T15:55:03Z"
+  },
+  {
+    "id": "20867736076",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 12,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/12",
+        "id": 5430011891,
+        "number": 12,
+        "head": {
+          "ref": "rediseno-portada",
+          "sha": "6f0c015318fe8ce15602eb6c125af1bdc196ba67",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "92888f856fca7df6e3163a02e629f43aff6a3305",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:36:08Z"
+  },
+  {
+    "id": "20867517509",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 12,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/12",
+        "id": 5430011891,
+        "number": 12,
+        "head": {
+          "ref": "rediseno-portada",
+          "sha": "6f0c015318fe8ce15602eb6c125af1bdc196ba67",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "92888f856fca7df6e3163a02e629f43aff6a3305",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:31:58Z"
+  },
+  {
+    "id": "27838614636",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 51286902253,
+      "ref": "refs/heads/main",
+      "head": "732312c5cd399bb41b55a473234659ac99ad45ad",
+      "before": "28bb9b741854ec6d06a79a7e80e67d28b8fac87d"
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:11:09Z"
+  },
+  {
+    "id": "20866902449",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/11",
+        "id": 5429913431,
+        "number": 11,
+        "head": {
+          "ref": "rediseno-temas",
+          "sha": "4ee4afd2550cba0b16a50b6035a17e95f30be2ba",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "732312c5cd399bb41b55a473234659ac99ad45ad",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:20:32Z"
+  },
+  {
+    "id": "20866881463",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/11",
+        "id": 5429913431,
+        "number": 11,
+        "head": {
+          "ref": "rediseno-temas",
+          "sha": "4ee4afd2550cba0b16a50b6035a17e95f30be2ba",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "732312c5cd399bb41b55a473234659ac99ad45ad",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:20:10Z"
+  },
+  {
+    "id": "20866378835",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/10",
+        "id": 5429802468,
+        "number": 10,
+        "head": {
+          "ref": "rediseno-casos",
+          "sha": "702dc6d28e0d1997b5c8c96d912bf45d1c124f6e",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "28bb9b741854ec6d06a79a7e80e67d28b8fac87d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:11:08Z"
+  },
+  {
+    "id": "20866290685",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/10",
+        "id": 5429802468,
+        "number": 10,
+        "head": {
+          "ref": "rediseno-casos",
+          "sha": "702dc6d28e0d1997b5c8c96d912bf45d1c124f6e",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "28bb9b741854ec6d06a79a7e80e67d28b8fac87d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T16:09:33Z"
+  },
+  {
+    "id": "20865479044",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 9,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/9",
+        "id": 5429652531,
+        "number": 9,
+        "head": {
+          "ref": "rediseno-conceptos",
+          "sha": "82d2099d12934a49c48ae838b3adcdc02925ade2",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d13cc4d4a0387437fb04a91dc0231bafdb7bf65d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T15:55:02Z"
+  },
+  {
+    "id": "20865399900",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 9,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/9",
+        "id": 5429652531,
+        "number": 9,
+        "head": {
+          "ref": "rediseno-conceptos",
+          "sha": "82d2099d12934a49c48ae838b3adcdc02925ade2",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d13cc4d4a0387437fb04a91dc0231bafdb7bf65d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T15:53:35Z"
+  },
+  {
+    "id": "27801219312",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 51234602519,
+      "ref": "refs/heads/main",
+      "head": "d02d1427ff249d10c358b25d2fa13c36a20dda8d",
+      "before": "fb39c78176585592ea29ad6fceaf200b130fc97c"
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:17:04Z"
+  },
+  {
+    "id": "27787719787",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "ref": "casos-talleres",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/casos-talleres",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:27:34Z"
+  },
+  {
+    "id": "20832672105",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 8,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/8",
+        "id": 5424270271,
+        "number": 8,
+        "head": {
+          "ref": "conceptos-ampliados",
+          "sha": "9da07c0f6a5ea7be8b5a6a5bc2c906d09a5d40ac",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "11e12b17cc639bddaa732686bca30848836b8ece",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:35:35Z"
+  },
+  {
+    "id": "20832613403",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 8,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/8",
+        "id": 5424270271,
+        "number": 8,
+        "head": {
+          "ref": "conceptos-ampliados",
+          "sha": "9da07c0f6a5ea7be8b5a6a5bc2c906d09a5d40ac",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "11e12b17cc639bddaa732686bca30848836b8ece",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:34:19Z"
+  },
+  {
+    "id": "20832389402",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/7",
+        "id": 5424222698,
+        "number": 7,
+        "head": {
+          "ref": "casos-talleres",
+          "sha": "99909e965b14b8322285430c60c4429c1cf3527e",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d02d1427ff249d10c358b25d2fa13c36a20dda8d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:29:19Z"
+  },
+  {
+    "id": "20832312339",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/7",
+        "id": 5424222698,
+        "number": 7,
+        "head": {
+          "ref": "casos-talleres",
+          "sha": "99909e965b14b8322285430c60c4429c1cf3527e",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d02d1427ff249d10c358b25d2fa13c36a20dda8d",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:27:35Z"
+  },
+  {
+    "id": "20831808278",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 6,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/6",
+        "id": 5424141501,
+        "number": 6,
+        "head": {
+          "ref": "fuente-del-curso",
+          "sha": "1e584f69f1fc9ae6935b4c4e300900866a072488",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "fb39c78176585592ea29ad6fceaf200b130fc97c",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:17:03Z"
+  },
+  {
+    "id": "20831730991",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 6,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos/pulls/6",
+        "id": 5424141501,
+        "number": 6,
+        "head": {
+          "ref": "fuente-del-curso",
+          "sha": "1e584f69f1fc9ae6935b4c4e300900866a072488",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "fb39c78176585592ea29ad6fceaf200b130fc97c",
+          "repo": {
+            "id": 1463536031,
+            "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos",
+            "name": "Sistemas-Operativos"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-11-21T04:15:21Z"
+  },
+  {
+    "id": "27767008310",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463668126,
+      "name": "Psakejs/solid-chainsaw",
+      "url": "https://api.github.com/repos/Psakejs/solid-chainsaw"
+    },
+    "payload": {
+      "repository_id": 1463668126,
+      "push_id": 50943613966,
+      "ref": "refs/heads/main",
+      "head": "dfa6b4177e2ea8d3dfb11a38ef7b2b3c669aef67",
+      "before": "24433d88c6bb61f90bc9272fae91985cc1c8ea4b"
+    },
+    "public": true,
+    "created_at": "2026-11-19T04:46:54Z"
+  },
+  {
+    "id": "27754303605",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463632712,
+      "name": "Psakejs/juegos-retro",
+      "url": "https://api.github.com/repos/Psakejs/juegos-retro"
+    },
+    "payload": {
+      "repository_id": 1463632712,
+      "push_id": 50941603214,
+      "ref": "refs/heads/main",
+      "head": "155b76839d4756c9d637ce15b421863b1bcd0090",
+      "before": "5733bc70aea68691feb21e7716c566454acbea56"
+    },
+    "public": true,
+    "created_at": "2026-11-19T04:23:11Z"
+  },
+  {
+    "id": "27751707361",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463632712,
+      "name": "Psakejs/juegos-retro",
+      "url": "https://api.github.com/repos/Psakejs/juegos-retro"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-11-19T03:49:47Z"
+  },
+  {
+    "id": "27749562667",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 50936349370,
+      "ref": "refs/heads/main",
+      "head": "fb39c78176585592ea29ad6fceaf200b130fc97c",
+      "before": "b8f4e6ac2a17adf6000db3a1ec994ecc4cc9e401"
+    },
+    "public": true,
+    "created_at": "2026-11-19T03:20:59Z"
+  },
+  {
+    "id": "27732694970",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "ref": "contenido-proyecto-final",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/contenido-proyecto-final",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-11-19T01:52:32Z"
+  },
+  {
+    "id": "27700487198",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463632712,
+      "name": "Psakejs/juegos-retro",
+      "url": "https://api.github.com/repos/Psakejs/juegos-retro"
+    },
+    "payload": {
+      "repository_id": 1463632712,
+      "push_id": 50939336684,
+      "ref": "refs/heads/main",
+      "head": "5733bc70aea68691feb21e7716c566454acbea56",
+      "before": "8525cd00c1dce2870aaf98d711cb9bf5e72735bc"
+    },
+    "public": true,
+    "created_at": "2026-11-19T03:56:33Z"
+  },
+  {
+    "id": "27697225541",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 50935801804,
+      "ref": "refs/heads/main",
+      "head": "b8f4e6ac2a17adf6000db3a1ec994ecc4cc9e401",
+      "before": "d657e718a828ecb766ec2abcbd4db6d352042cbc"
+    },
+    "public": true,
+    "created_at": "2026-11-19T03:14:41Z"
+  },
+  {
+    "id": "27693604741",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 50932083551,
+      "ref": "refs/heads/main",
+      "head": "bc614d6b2c1f3cdbc321aabdd2493b02db3e2d0d",
+      "before": "85ea822bd1021f5b7d8694d2b90cdb7dc9c627fb"
+    },
+    "public": true,
+    "created_at": "2026-11-19T02:32:07Z"
+  },
+  {
+    "id": "27691189569",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 50929933650,
+      "ref": "refs/heads/contenido-proyecto-final",
+      "head": "f7ef3664292300028a2648bbf7d1d2c0048813b7",
+      "before": "023f6ef988d8e40769f397831dda87d2a5dd17f0"
+    },
+    "public": true,
+    "created_at": "2026-11-19T02:07:34Z"
+  },
+  {
+    "id": "27688755866",
+    "type": "PushEvent",
+    "actor": {
+      "id": 186226144,
+      "login": "Psakejs",
+      "display_login": "Psakejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Psakejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186226144?"
+    },
+    "repo": {
+      "id": 1463536031,
+      "name": "Psakejs/Sistemas-Operativos",
+      "url": "https://api.github.com/repos/Psakejs/Sistemas-Operativos"
+    },
+    "payload": {
+      "repository_id": 1463536031,
+      "push_id": 50927664227,
+      "ref": "refs/heads/main",
+      "head": "a7d877418e2a5b32ae32f373632028e6d4d9f943",
+      "before": "9e7b257a8d7117906f77abe00c595f371e8388bf"
+    },
+    "public": true,
+    "created_at": "2026-11-19T01:41:40Z"
+  }
 ]
